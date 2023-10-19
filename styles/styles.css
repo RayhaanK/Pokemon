@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/s2V39wNG/pokemon-Backgroundd.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pokemonName {
+    display: flex;
+    margin-left: 0.2rem;
+}
+
+.pokemonImage{
+    display: flex;
+    justify-content: center;
+}
+
+.pokeimage {
+    width: 13rem;
+}
